@@ -234,6 +234,12 @@ reboot
 apt install python3-pip -y
 ```
 
+pip更新源
+
+```
+mkdir ~/.pip && echo '[global]'>> ~/.pip/pip.conf && echo 'index-url = https://pypi.tuna.tsinghua.edu.cn/simple' >> ~/.pip/pip.conf && echo "format = columns" >> ~/.pip/pip.conf && pip install --upgrade pip
+```
+
 使用vscode编写python会需要这两个包。
 
 ```
