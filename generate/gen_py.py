@@ -11,4 +11,3 @@ filename = project_name+'.py'
 f = open(filename, 'w')
 f.write('#!/usr/bin/env python\n')
 f.close()
-
